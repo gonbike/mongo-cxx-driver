@@ -17,9 +17,9 @@
 #include <string>
 #include <vector>
 
-#include <mongocxx/third_party/md5.h>
 #include <bsoncxx/stdx/make_unique.hpp>
 #include <mongocxx/gridfs/uploader.hpp>
+#include <mongocxx/private/md5.hh>
 
 #include <mongocxx/config/private/prelude.hh>
 
